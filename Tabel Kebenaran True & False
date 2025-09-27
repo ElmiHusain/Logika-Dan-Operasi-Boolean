@@ -1,0 +1,20 @@
+# Membuat tabel kebenaran
+# Tabel kebenaran AND
+print("p =", True, ", q =", True, "=> p AND q =", True and True)
+print("p =", True, ", q =", False, "=> p AND q =", True and False)
+print("p =", False, ", q =", True, "=> p AND q =", False and True)
+print("p =", False, ", q =", False, "=> p AND q =", False and False)
+
+
+# Tabel kebenaran OR NOT
+print("p =", True, ", q =", True, "=> p OR ~q =", True or not True)
+print("p =", True, ", q =", False, "=> p OR ~q =", True or not False)
+print("p =", False, ", q =", True, "=> p OR ~q =", False or not True)
+print("p =", False, ", q =", False, "=> p OR ~q =", False or not False)
+
+
+# Tabel kebenaran XOR
+print("p =", True, ", q =", True, "=> p XOR q =", True ^ True)
+print("p =", True, ", q =", False, "=> p XOR q =", True ^ False)
+print("p =", False, ", q =", True, "=> p XOR q =", False ^ True)
+print("p =", False, ", q =", False, "=> p XOR q =", False ^ False)
