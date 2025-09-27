@@ -1,0 +1,12 @@
+# Memberi nilai pada variabel
+a = 100
+b = 50
+
+
+# Membuat output dari operasi dasar python
+print(a+b) # Untuk operasi penjumlahan
+print(a-b) # Untuk operasi pengurangan
+print(a*b) # Untuk operasi perkalian
+print(a/b) # Untuk operasi pembagian (hasil dapat berupa bilangan desimal)
+print(a//b) # Untuk operasi pembagian (hasil hanya berupa bilangan bulat)
+print(a%b) # Untuk mencari sisa dari operasi pembagian
